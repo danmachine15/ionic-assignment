@@ -2,7 +2,7 @@ angular.module('calorific.controllers', [])
 
 
 .controller('FoodlistsCtrl', function($scope) {
-  $scope.playlists = [
+  $scope.foodlist = [
     { title: 'Meats', id: 1 },
     { title: 'Vegetables', id: 2 },
     { title: 'Fruit', id: 3 },
